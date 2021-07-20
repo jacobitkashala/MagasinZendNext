@@ -15,13 +15,13 @@ export default function Layout({ children }) {
   return (
     <div>
       <Head>
-        <title>Next Amazona</title>
+        <title>Zender Magasin</title>
       </Head>
       <AppBar position="static" className={classes.navbar}>
         <Toolbar>
           <NextLink href="/" passHref>
             <Link>
-              <Typography className={classes.brand}>amazona</Typography>
+              <Typography className={classes.brand}>Zender Magasin</Typography>
             </Link>
           </NextLink>
           <div className={classes.grow}></div>

@@ -12,6 +12,9 @@ export default function ProductScreen() {
   return (
     <div>
       <h1>{product.name}</h1>
+      <p>
+        plus de details et produit 
+      </p>
     </div>
   );
 }
